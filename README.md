@@ -15,7 +15,7 @@ The algorithms tested are combinations of:
 `$ python3 kakuro.py`
 
 ## Implementation
-The files **csp.py**, **search.py** and **utils.py** are modified files of @aima-python.
+The files **csp.py**, **search.py** and **utils.py** are modified files of [@aimacode/aima-python](https://github.com/aimacode/aima-python).
 
 The **kakuro.py** file is written by me and it's the modelization of Kakuro as a CSP and the main function. 
 
