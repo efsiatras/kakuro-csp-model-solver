@@ -1,7 +1,7 @@
-#  Modelling Kakuro as CSP and Solving Kakuro Puzzles
-**Kakuro** or Kakkuro or Kakoro is a kind of logic puzzle that is often referred to as a mathematical transliteration of the crossword.
+#  Modelling and Solving Kakuro Puzzles as CSP
+Kakuro (also known as Kakkuro or Kakoro) is a logic puzzle often regarded as the mathematical counterpart to a crossword puzzle.
 
-We model Kakuro as a **CSP** and solve Kakuro puzzles with various algorithms. Our goal is to show how different algorithms for CSP behave during the solution of these puzzles.
+In this work, we model Kakuro puzzles as a **Constraint Satisfaction Problem (CSP)** and solve them using various algorithms. Our objective is to evaluate the performance of different CSP algorithms during the puzzle-solving process.
 
 ## Algorithms for CSP
 The algorithms tested are combinations of:
@@ -17,7 +17,7 @@ The algorithms tested are combinations of:
 ## Implementation
 The **csp.py**, **search.py** and **utils.py** files are modified files of [aimacode/aima-python](https://github.com/aimacode/aima-python).
 
-The **kakuro.py** file is written by me and it's the modelization of Kakuro as a CSP and the main function. 
+The **kakuro.py** file was developed specifically for this project; it contains the CSP model for Kakuro as well as the main function.
 
 ## Kakuro Puzzles
 The Kakuro puzzles are taken from [here](https://www.kakuroconquest.com/) and [here](https://www.menneske.no/kakuro/eng/).
@@ -57,3 +57,6 @@ The Kakuro puzzles are taken from [here](https://www.kakuroconquest.com/) and [h
 | BT + MAC + MRV       | 0.20046                   | 214                           |
 | BT + FC + MRV + LCV  | 1.33246                   | 4949                          |
 | BT + MAC + MRV + LCV | 0.19248                   | 215                           |
+
+## License
+This project is available under the MIT License.
